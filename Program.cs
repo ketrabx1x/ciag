@@ -9,6 +9,7 @@ namespace kolokwium
             while (true)
             {
                 double a, b;
+                Console.WriteLine("Witaj w programie do obliczania wyrazów ciągu");
                 Console.WriteLine("Jak dużo elementów chcesz obliczyć?");
                 uint n = Convert.ToUInt32(Console.ReadLine());
                 double[] tab = new double[n];
